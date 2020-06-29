@@ -1,0 +1,264 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+  }
+  
+  .white-section {
+    background-color: #fff;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 10px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Black";
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  #title {
+    background-color: #232b3b;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 15%;
+  }
+  
+  #title .container-fluid {
+    padding: 5% 5% 5% 5%;
+  }
+  
+  
+ 
+  /*Title Card */
+  #title-card{
+    background-image: linear-gradient(to right,rgb(250,158,73),rgb(242,86,75));
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: justify;
+    font-family: "Montserrat-Black";
+  }
+  #title-card-container{
+      padding-top: 0%;
+      padding-bottom: 0%;
+      margin-top: -10%;
+  }
+
+  /* Universities */
+  #button-section h2,h3,h4{
+    font-family: "Montserrat-Bold";
+    font-size: 2.2rem;
+  }
+  .btn-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height:100px;
+  }
+  
+  .ct-btn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    margin:20px;
+  }
+  
+  /* Common CSS for all Buttons */
+  button {
+    
+    width: 90px;
+    height: 60px;
+    border-radius: 40px;
+    cursor:pointer;
+    font-family: lato;
+    font-size: 0.8rem;
+  }
+  
+  /* Solid Button */
+  .sky-neon {
+    color: #1c5169;
+    background-color: #86dbff;
+    -webkit-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+    border: 2px solid transparent;
+  }
+  
+  .sky-neon:hover, .sky-neon:focus {
+    -webkit-box-shadow: 0px 0px 20px 15px #3cc6d8;
+    box-shadow: 0px 0px 30px 20px #3cc6d8;
+    background-color: #d7f3ff;
+  }
+
+  /* Economy */
+  #economy-container{
+      background-color: #232b3b;
+      color: white;
+      font-family: "Montserrat-Black";
+  }
+  #economy-container h2,h3{
+    font-family: "Montserrat-Bold";
+    font-size: 2.2rem;
+  }
+
+  /* Companies */
+  #companies-container{
+    background-image: linear-gradient(to right,rgb(250,158,73),rgb(242,86,75));
+    color: black;
+    font-family: "Montserrat-Black";
+  }
+
+  /* 500 */
+  #five-hundred-container{
+      color: black;
+  }
+
+  /* Laeders Swiper Section */
+  .swiper-container {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+
+    width: 280px;
+    height: 300px;
+    background-color: aliceblue;
+   /* -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);*/
+  }
+  .swiper-slide h3{
+      
+      margin-top: 5px;
+      font-size: 1.2rem;
+      font-family: "Montserrat-Bold";
+      text-align: center;
+  }
+  .swiper-slide h4{
+      font-size: 1rem;
+      font-family: "Montserrat-Bold";
+      color: red;
+      margin-top: 5px;
+      text-align: center;
+  }
+  #de h4{
+   margin-top: 2px;
+  }
+
+  #leaders-section{
+    padding: 6% 2% 5% 2%;
+  }
+  /* Features Section */
+  
+  
+  
+  /* Testimonial Section */
+  
+  #testimonials {
+    padding-top: 2%;
+    background-image: linear-gradient(to right,rgb(250,158,73),rgb(242,86,75));
+  }
+  
+  .testimonial-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    
+  }
+  
+  .testimonial-image {
+    width: 25%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  
+ 
+  #footer{
+      background-color: #232b3b;
+      color: white;
+      padding-bottom: 0%;
+      
+  }
+  #copyright{
+   
+    margin-bottom: -10%;
+
+  }
+  /* Footer Section */
+  
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+  }
